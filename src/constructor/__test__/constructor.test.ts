@@ -1,23 +1,26 @@
-import constructorPattern from '../index';
+import ConstructorPattern from '../index';
 
 describe('constructor pattern', () => {
-    const instance = constructorPattern.getInstance();
+   it('create instance', () => {
+       const name = 'John';
+       const instance = new ConstructorPattern(name);
 
-    it('call public method', () => {
-       expect(instance.publicMethod()).toBe('this is public method');
-    });
+       expect(instance.name).toBe(name);
+   });
 
-    it('call public property', () => {
-        expect(instance.publicProperty).toBe('this is public property');
-    });
+   it('call method', () => {
+       const name = 'John';
+       const instance = new ConstructorPattern(name);
 
-    it('check private method', () => {
-        // @ts-ignore
-        expect(instance.privateMethod).toBeUndefined();
-    });
+       expect(instance.sayHello()).toBe(`Hello ${name}`);
+   });
 
-    it('check private property', () => {
-        // @ts-ignore
-        expect(instance.privateProperty).toBeUndefined();
+   it('check getter and setter', () => {
+       const newName = 'Bill';
+       const instance = new ConstructorPattern('John');
+
+       instance.name = newName;
+
+       expect(instance.name).toBe(newName);
     });
 });

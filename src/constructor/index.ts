@@ -1,35 +1,21 @@
-type InstanceType = {
-    publicMethod: () => string;
-    publicProperty: string;
+export default class ConstructorPatter {
+    private _name: string;
+
+    constructor(name: string) {
+        this._name = name;
+    }
+
+    set name(newName: string) {
+        this._name = newName;
+    }
+
+    get name(): string {
+        return this._name;
+    };
+
+    public sayHello(): string {
+        return `Hello ${this._name}`;
+    }
 }
-
-export default (() => {
-    let instance: InstanceType;
-
-    function init(): InstanceType {
-        const privateVar = 'this is private var';
-
-        function privateMethod(): string {
-            return 'this is private method';
-        }
-
-        return {
-            publicMethod(): string {
-                return 'this is public method'
-            },
-            publicProperty: 'this is public property'
-        }
-    }
-
-    return {
-        getInstance() {
-            if (!instance) {
-                instance = init();
-            }
-
-            return instance;
-        }
-    }
-})();
 
 
