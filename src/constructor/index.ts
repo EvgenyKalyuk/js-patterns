@@ -1,9 +1,5 @@
 export default class ConstructorPatter {
-    private _name: string;
-
-    constructor(name: string) {
-        this._name = name;
-    }
+    constructor(private _name: string) {}
 
     set name(newName: string) {
         this._name = newName;

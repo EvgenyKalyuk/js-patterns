@@ -7,6 +7,6 @@ module.exports = {
     transform: {
         ...tsjPreset.transform
     },
-    testRegex: '(\\.|/)(test|spec)\\.(tsx?)$',
+    testRegex: '(\\.|/)(test|spec)\\.ts$',
     preset: 'ts-jest'
 };
