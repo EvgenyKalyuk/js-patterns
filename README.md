@@ -5,3 +5,4 @@
 - [State](src/state)
 - [Memento](src/memento)
 - [Mediator](src/mediator)
+- [Interpreter](src/interpreter)
