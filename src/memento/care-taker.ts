@@ -1,4 +1,3 @@
-import { Originator } from './originator'
 import { Memento } from './memento';
 
 export class CareTaker {

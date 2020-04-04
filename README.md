@@ -7,3 +7,4 @@
 - [Mediator](src/mediator)
 - [Interpreter](src/interpreter)
 - [Command](src/command)
+- [Proxy](src/proxy)
