@@ -6,3 +6,4 @@
 - [Memento](src/memento)
 - [Mediator](src/mediator)
 - [Interpreter](src/interpreter)
+- [Command](src/command)
