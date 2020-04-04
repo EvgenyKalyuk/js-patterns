@@ -9,3 +9,5 @@
 - [Command](src/command)
 - [Proxy](src/proxy)
 - [Flyweight](src/flyweight)
+- [Composite](src/composite)
+- [Decorator](src/decorator)
