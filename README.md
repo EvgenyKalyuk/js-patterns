@@ -18,3 +18,11 @@
 - [Factory](src/factory)
 - [Builder](src/builder)
 - [Abstract factory](src/abstract-factory)
+- [Chain of Responsibility](src/chain-of-responsibility)
+- [Constructor](src/constructor)
+- [Facade](src/facade)
+- [Iterator](src/iterator)
+- [Observer](src/observer)
+- [Pubsub](src/pubsub)
+
+
