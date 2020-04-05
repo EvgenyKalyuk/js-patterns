@@ -13,3 +13,4 @@
 - [Decorator](src/decorator)
 - [Bridge](src/bridge)
 - [Adapter](src/adapter)
+- [Singleton](src/singleton)
