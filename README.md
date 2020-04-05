@@ -14,3 +14,4 @@
 - [Bridge](src/bridge)
 - [Adapter](src/adapter)
 - [Singleton](src/singleton)
+- [Prototype](src/prototype)

@@ -1,14 +1,12 @@
-type TeslaModelSThisType = {
-    numWheels: number;
-    manufacturer: string;
-    make: string;
-}
+class TeslaModelS {
+    public numWheels = 4;
+    public manufacturer = 'Tesla';
+    public make = 'Model S';
 
-const TeslaModelS = function(this: TeslaModelSThisType) {
-    this.numWheels = 4;
-    this.manufacturer = 'Tesla';
-    this.make = 'Model S';
-};
+    go() {}
+
+    stop() {}
+}
 
 TeslaModelS.prototype.go = () => {
     return 'go';
@@ -17,5 +15,3 @@ TeslaModelS.prototype.go = () => {
 TeslaModelS.prototype.stop = () => {
     return 'stop';
 };
-
-export default TeslaModelS;
