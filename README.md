@@ -16,3 +16,4 @@
 - [Singleton](src/singleton)
 - [Prototype](src/prototype)
 - [Factory](src/factory)
+- [Builder](src/builder)
