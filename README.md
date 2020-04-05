@@ -11,3 +11,5 @@
 - [Flyweight](src/flyweight)
 - [Composite](src/composite)
 - [Decorator](src/decorator)
+- [Bridge](src/bridge)
+- [Adapter](src/adapter)
